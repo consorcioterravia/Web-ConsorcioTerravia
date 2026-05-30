@@ -9,7 +9,29 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: "Consorcio Terravía",
-  description: "Inteligencia Inmobiliaria, Diseño y Rentabilidad.",
+  description: "Inteligencia Inmobiliaria, Diseño y Rentabilidad. Plataforma integral para gestión de activos y arquitectura de autor.",
+  openGraph: {
+    title: "Consorcio Terravía",
+    description: "Inteligencia Inmobiliaria, Diseño y Rentabilidad.",
+    url: "https://terravia.com",
+    siteName: "Consorcio Terravía",
+    images: [
+      {
+        url: "/hero-bg.jpg", // En el futuro reemplazar con una imagen OG específica de 1200x630
+        width: 1200,
+        height: 630,
+        alt: "Consorcio Terravía Preview",
+      }
+    ],
+    locale: "es_ES",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Consorcio Terravía",
+    description: "Inteligencia Inmobiliaria, Diseño y Rentabilidad.",
+    images: ["/hero-bg.jpg"], // En el futuro reemplazar con una imagen de Twitter específica
+  }
 };
 
 export default function RootLayout({
