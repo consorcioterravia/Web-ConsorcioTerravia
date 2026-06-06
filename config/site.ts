@@ -7,9 +7,9 @@ export const siteConfig = {
   },
   navLinks: [
     { label: 'Proyectos', href: '/proyectos' },
-    { label: 'Inversión', href: '/inversion' },
+    { label: 'Conócenos', href: '/#conocenos' },
     { label: 'Constructores', href: '/constructores' },
-    { label: 'Portal', href: '/portal' },
+    { label: 'Clientes', href: '/clientes' },
   ],
   trustedLogos: [
     { src: "/logo-1.svg", alt: "CBRE" },

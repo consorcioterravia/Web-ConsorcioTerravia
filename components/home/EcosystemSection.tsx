@@ -49,36 +49,43 @@ export function EcosystemSection() {
             </div>
           </div>
 
-          {/*  Card 2: Investor  */}
-          <div className="md:col-span-5 bg-primary border border-primary-container shadow-lg rounded-none p-lg flex flex-col justify-between text-on-primary group relative overflow-hidden">
+          {/*  Card 2: Conocenos (Team Dual Focus)  */}
+          <div id="conocenos" className="md:col-span-5 bg-primary border border-primary-container shadow-lg rounded-none p-lg flex flex-col justify-between text-on-primary group relative overflow-hidden">
             <div className="absolute inset-0 concrete-texture opacity-20 pointer-events-none"></div>
             <div className="relative z-10">
               <div className="flex items-center gap-3 mb-md text-primary-fixed">
                 <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center border border-white/20">
-                  <span className="material-symbols-outlined">trending_up</span>
+                  <span className="material-symbols-outlined">group</span>
                 </div>
-                <span className="font-label-md text-label-md uppercase tracking-widest font-bold">Inversionista</span>
+                <span className="font-label-md text-label-md uppercase tracking-widest font-bold">Nuestro Equipo</span>
               </div>
-              <h3 className="font-headline-md text-headline-md text-white mb-md font-bold">Smart Flipping &amp; Alto ROI</h3>
+              <h3 className="font-headline-md text-headline-md text-white mb-md font-bold">Conoce nuestro equipo</h3>
               <p className="font-body-md text-body-md text-primary-fixed-dim mb-lg leading-relaxed">
-                Identificamos activos subvalorados, aplicamos diseño arquitectónico estratégico y
-                maximizamos la rentabilidad mediante intervenciones precisas.
+                Nuestra fuerza radica en la dualidad: un área dedicada a la arquitectura y diseño de vanguardia, 
+                y otra experta en asesoría de bienes raíces para asegurar transacciones ágiles y rentables.
               </p>
-              <div className="bg-black/20 border border-white/10 rounded-none p-lg mb-lg backdrop-blur-sm">
-                <div className="flex justify-between items-end mb-3">
-                  <span className="font-caption text-caption text-primary-fixed uppercase tracking-widest mb-1">ROI Promedio Proyectado</span>
-                  <span className="font-display-lg text-5xl md:text-6xl text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.4)] font-black">18.5%</span>
+              
+              <div className="flex flex-col gap-4 mb-lg">
+                <div className="bg-black/20 border border-white/10 rounded-lg p-4 backdrop-blur-sm flex items-start gap-4">
+                  <span className="material-symbols-outlined text-primary-fixed mt-1">architecture</span>
+                  <div>
+                    <h4 className="font-label-md text-white font-bold mb-1">Arquitectura & Diseño</h4>
+                    <p className="font-caption text-primary-fixed-dim">Vanguardia y optimización de espacios.</p>
+                  </div>
                 </div>
-                <div className="w-full bg-black/40 h-2 mt-4 rounded-full overflow-hidden">
-                  <div className="bg-primary-fixed h-2 w-[75%] rounded-full relative">
-                    <div className="absolute inset-0 bg-white/20 animate-pulse"></div>
+                <div className="bg-black/20 border border-white/10 rounded-lg p-4 backdrop-blur-sm flex items-start gap-4">
+                  <span className="material-symbols-outlined text-primary-fixed mt-1">real_estate_agent</span>
+                  <div>
+                    <h4 className="font-label-md text-white font-bold mb-1">Asesores Inmobiliarios</h4>
+                    <p className="font-caption text-primary-fixed-dim">Expertos en mercado y negociaciones rápidas.</p>
                   </div>
                 </div>
               </div>
             </div>
-            <Link className="relative z-10 inline-flex items-center gap-2 text-white font-label-md text-label-md hover:text-primary-fixed transition-colors group-hover:translate-x-2 transform duration-300 uppercase tracking-wider"
-              href="/inversion">
-              Oportunidades de Inversión <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
+            
+            <Link className="relative z-10 inline-flex items-center justify-center gap-2 px-6 py-3 bg-white text-primary font-label-md text-label-md hover:bg-primary-fixed transition-colors transform duration-300 uppercase tracking-wider rounded-sm font-bold shadow-md"
+              href="/#contacto">
+              Saber más <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
             </Link>
           </div>
 

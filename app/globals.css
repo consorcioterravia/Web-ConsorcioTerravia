@@ -110,6 +110,10 @@
   --text-headline-lg--font-weight: 600;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--color-background);
     color: var(--color-on-surface);
